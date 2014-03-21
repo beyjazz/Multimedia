@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="jquery.mobile-1.4.0.min.css" />
+<script src="jquery-1.10.2.min.js"></script>
+<script src="jquery.mobile-1.4.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".show-menu").click(function(){
+	  $(".sliding-menu").toggleClass("reverse out in"); 
+	         
+    });
+});
+</script>
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="b">
+	<div data-role="panel" id="default" data-position="left" data-display="reveal">
+    <h3>Panel Option</h3>
+    <p>Rahadian Bagaskoro</p>
+    <p>TI 3.2</p>
+    <p>1111031</p>
+    <a href="#" data-rel="close"  class="ui-btn ui-shadow ui-btn-inline ui-icon-delete ui-btn-icon-left">close</a>
+    </div>
+    
+	<div data-role="header" data-position="fixed">
+   	<a href="#default" class="ui-btn ui-shadow ui-btn-inline ui-icon-grid ui-btn-icon-left">info</a>
+    <h1> STTAR Malang</h1>
+    </div>
+    
+     <div data-role="content" class="content">
+     
+     	<img src="2.png" data-transition="fade" width="100%"/>
+     
+    
+  	</div>
+    
+     
+    
+    <div data-role="footer" class="ui-bar" data-position="fixed" >
+    <div data-role="navbar">
+    <ul>
+    <li><a href="page1.html" class="ui-btn ui-icon-video ui-btn-icon-top" data-rel="dialog">Video</a></li>
+    <li><a href="page2.html" class="ui-btn ui-icon-tag ui-btn-icon-top" data-rel="dialog">Picture</a></li>
+    <li><a href="page3.html" class="ui-btn ui-icon-audio ui-btn-icon-top" data-rel="dialog">Audio</a></li>
+    <li><a href="page4.html" class="ui-btn ui-icon-shop ui-btn-icon-top" data-rel="dialog">Animasi</a></li>
+      
+    </ul>
+    </div>
+    
+	<h4> Team Creative STTAR Malang</h4>
+    </div>
+    
+</body>
+</html>
